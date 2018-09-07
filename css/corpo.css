@@ -32,9 +32,3 @@ header {
 h1 { font-size: 36px; }
 h3 { font-size: 22px; }
 h4 { font-size: 14px; }
-
-footer {
-    text-align: center;
-    font-size: 12px;
-    padding: 3rem;
-}
