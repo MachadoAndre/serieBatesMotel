@@ -1,28 +1,26 @@
 nav {
     position: fixed;
     display: inline-block;
-    background-color: rgba(150, 150, 150, 0.3);
+    background-color: rgba(150, 150, 150, 0.7);
     width: 100%;
+    z-index: 1;
 }
 
-nav img {
-    padding: 1rem;
-}
+nav img { padding: 1rem; }
 
 ul {
     display: none;
     position: absolute;
     background-color: black;
-    z-index: 1;
     color: #FFF;
 }
 
-nav:hover ul {
-    display: block;
-}
+nav:hover ul { display: block;}
 
 nav li {
-    padding: 1rem;
+    margin-left: 10px;
+    margin-right: 10px; 
+    padding: 1rem; 
 }
 
 nav a {
