@@ -15,10 +15,33 @@
     transition: all 500ms ease;
     width: 99%;
 }
+
 .personagens img:hover ~ p {
     display: block;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
     border-bottom: 2px solid gray;
+}
+@media (min-width:600px){
+
+    .personagens img{
+        width: 20%;
+        margin: auto;
+        border: 2px solid gray;
+    }
+    
+    .personagens img:hover {
+        display: flex;
+        transition: all 500ms ease;
+        width: 35%;
+    }
+
+    .personagens img:hover ~ p {
+        width: 50%;
+        display: inline-flex;
+        font-size: 14px;
+        margin: auto;
+        border-bottom: 2px solid gray;
+    }
 }
