@@ -1,3 +1,8 @@
+@charset "UTF-8";
+
+nav img { padding: 1rem; }
+nav:hover ul { display: block;}
+
 nav {
     position: fixed;
     display: inline-block;
@@ -6,16 +11,12 @@ nav {
     z-index: 1;
 }
 
-nav img { padding: 1rem; }
-
 ul {
     display: none;
     position: absolute;
     background-color: black;
     color: #FFF;
 }
-
-nav:hover ul { display: block;}
 
 nav li {
     margin-left: 10px;
